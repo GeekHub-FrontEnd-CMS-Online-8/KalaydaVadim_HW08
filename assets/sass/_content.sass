@@ -1,0 +1,392 @@
+$background-grey: #fafafa
+$fontcolor-grey: #777777
+$skills-margin-left: 150px
+$skills-margin-top: 50px
+$media-skills-margin-left: 100px
+$display-flex: flex
+
+
+.web-development
+  height: 440px
+  display: $display-flex
+  flex-direction: column
+  h2
+    font-size: 60px
+    color: #222222
+    line-height: 75px
+    font-weight: 400
+    text-align: center
+    padding-top: 35px
+    padding-right: 365px
+    font-weight: lighter
+    span
+      font-weight: bold
+  p
+    font-size: 18px
+    line-height: 24px
+    letter-spacing: -0.45px
+    text-align: center
+    padding-right: 270px
+    margin-top: -20px
+    color: #777777
+  .description-bottom
+    margin-top: 15px
+  .web-development-image
+    display: $display-flex
+    justify-content: center
+    align-items: flex-end
+    margin-left: 600px
+    margin-top: -250px
+    img
+      max-width: 221px
+      height: 222px
+
+@media (min-width: 470px)and(max-width: 824px)
+  .web-development
+    height: 702px
+    h2
+      line-height: 40px
+      font-size: 38px
+      padding-right: 0px
+    p
+      font-size: 20px
+      padding-right: 0px
+    .web-development-image
+      margin-left: 0
+      margin-top: 0
+
+.indentity-branding
+  display: $display-flex
+  flex-direction: column
+  height: 440px
+  background-color: $background-grey
+  .indentity-branding-img
+    display: flex
+    justify-content: center
+    margin-right: 550px
+    margin-top: -242px
+    img
+      max-width: 272px
+      height: 197px
+  h2
+    font-size: 60px
+    color: #222222
+    line-height: 75px
+    font-weight: 400
+    text-align: center
+    padding-top: 35px
+    padding-left: 230px
+    font-weight: lighter
+    span
+      font-weight: bold
+  p
+    font-size: 18px
+    line-height: 24px
+    letter-spacing: -0.45px
+    text-align: center
+    padding-left: 355px
+    margin-top: -20px
+    color: #777777
+  .description-indenity-bottom
+    margin-top: 15px
+
+@media (min-width: 470px)and(max-width: 880px)
+  .indentity-branding
+    height: 660px
+    h2
+      line-height: 40px
+      font-size: 38px
+      padding-left: 0px
+    p
+      font-size: 20px
+      padding-left: 0px
+    .indentity-branding-img
+      margin-right: 0
+      margin-top: 0
+
+.skills
+  height: 590px
+  .allskills
+    display: grid
+    grid-template-columns: 520px 520px
+    justify-content: center
+    margin-right: 130px
+    h3
+      font-size: 22px
+      font-weight: 500
+      letter-spacing: -0.55px
+      padding-left: 85px
+      margin-top: -80px
+    p
+      color: $fontcolor-grey
+      font-size: 18px
+      line-height: 18px
+      letter-spacing: -0.45px
+      padding-bottom: 10px
+      padding-left: 85px
+    .branding
+      margin-left: $skills-margin-left
+      margin-top: $skills-margin-top
+    .mobileapp
+      margin-left: $skills-margin-left
+      margin-top: $skills-margin-top
+    .uiux
+      margin-left: $skills-margin-left
+      margin-top: $skills-margin-top
+    .web-and-graphic
+      margin-left: $skills-margin-left
+      margin-top: $skills-margin-top
+    .animations
+      margin-left: $skills-margin-left
+      margin-top: $skills-margin-top
+    .photography
+      margin-left: $skills-margin-left
+      margin-top: $skills-margin-top
+
+@media (min-width: 470px)and(max-width: 876px)
+  .skills
+    height: 940px
+    .allskills
+      grid-template-columns: 300px 300px
+      .branding
+        margin-left: $media-skills-margin-left
+      .mobileapp
+        margin-left: $media-skills-margin-left
+      .uiux
+        margin-left: $media-skills-margin-left
+      .web-and-graphic
+        margin-left: $media-skills-margin-left
+      .animations
+        margin-left: $media-skills-margin-left
+      .photography
+        margin-left: $media-skills-margin-left
+
+.awesome-clients
+  height: 810px
+  background-color: $background-grey
+  h2
+    font-size: 60px
+    color: #222222
+    line-height: 75px
+    font-weight: 400
+    text-align: center
+    padding-top: 100px
+    font-weight: lighter
+    span
+      font-weight: bold
+  h4
+    color: $fontcolor-grey
+    font-size: 22px
+    letter-spacing: -0.55px
+    font-weight: 400
+    text-align: center
+    margin-top: -57px
+  .jamie
+    display: $display-flex
+    justify-content: center
+    margin-top: 28px
+    .black-round
+      max-width: 221px
+      height: 221px
+    .jamie-box
+      max-width: 665px
+      height: 176px
+      margin-top: 20px
+      margin-left: 15px
+  .bart
+    display: $display-flex
+    justify-content: center
+    margin-top: 25px
+    .bart-box
+      max-width: 662px
+      height: 174px
+      margin-top: 30px
+
+@media (min-width: 470px)and(max-width: 924px)
+  .awesome-clients
+    height: 570px
+    .jamie
+      .black-round
+        max-width: 131px
+        height: 131px
+      .jamie-box
+        max-width: 315px
+        height: 91px
+    .bart
+      .black-round
+        max-width: 131px
+        height: 131px
+      .bart-box
+        max-width: 315px
+        height: 91px
+
+.logos
+  height: 100px
+  display: $display-flex
+  justify-content: center
+  align-items: flex-end
+  .content-logos
+    img
+      margin-left: 25px
+    .envato
+      transform: translate(0px, -5px)
+
+@media (min-width: 470px) and (max-width: 764px)
+  .logos
+    align-items: flex-start
+    .content-logos
+      margin-top: 25px
+      display: inline-block
+      text-align: center
+
+.amazing-team
+  height: 800px
+  background-color: #111111
+  h2
+    font-size: 60px
+    color: $white_color
+    line-height: 75px
+    font-weight: 400
+    text-align: center
+    padding-top: 100px
+    font-weight: lighter
+    span
+      font-weight: bold
+  h4
+    color: $fontcolor-grey
+    font-size: 22px
+    letter-spacing: -0.55px
+    font-weight: 400
+    text-align: center
+    margin-top: -53px
+  .team
+    display: $display-flex
+    justify-content: center
+    margin-top: 72px
+    img
+      margin-left: 60px
+  p
+    color: #ebebeb
+    font-size: 20px
+    letter-spacing: -0.5px
+    text-align: center
+    line-height: 24px
+    padding-top: 25px
+
+@media (min-width: 470px)and(max-width: 898px)
+  .amazing-team
+    .team
+      img
+        max-width: 155px
+        height: 207px
+        margin-left: 2px
+
+.contact-us
+  height: 720px
+  background-color: #7690c5
+  padding-top: 1px
+  .content-contact-us
+    display: $display-flex
+    justify-content: flex-start
+    align-items: flex-end
+    padding-top: 1px
+    .left-side
+      margin-left: 235px
+      margin-bottom: 230px
+      padding-top: 1px
+      .sayhello
+        font-size: 60px
+        color: $white_color
+        line-height: 75px
+        font-weight: 400
+        text-align: center
+        padding-top: 25px
+        padding-left: 20px
+        font-weight: lighter
+        span
+          font-weight: bold
+      p 
+        color: #ffffff
+        font-size: 18px 
+      .under-sayhello
+        letter-spacing: -0.45px
+        padding-left: 230px
+        margin-top: -45px
+      .all-columns
+        display: $display-flex
+        flex-direction: column
+        .first-column
+          margin-top: 20px
+          margin-left: 250px
+          p
+            margin-left: 38px
+            margin-top: -35px
+          img
+            margin-top: 27px
+          .phone
+            margin-left: 5px
+        .second-column
+          margin-top: -200px
+          margin-left: 480px
+          p
+            margin-left: 38px
+            margin-top: -35px
+          img
+            margin-top: 27px
+    .right-side
+      padding-top: 1px
+      display: flex
+      flex-direction: column
+      margin-bottom: 220px
+      margin-left: 50px
+      form
+        input
+          width: 456px
+          height: 50px
+          border: 1px solid #C6C6C6
+          border-radius: 3px
+          color: #bbbbbb
+          font-size: 14px
+          font-weight: bold
+          letter-spacing: -0.45px
+          padding-left: 20px
+          margin-top: 25px
+        input[type="text"]::-webkit-input-placeholder 
+          color: #bbbbbb
+        input[type="email"]::-webkit-input-placeholder 
+          color: #bbbbbb
+        textarea
+          width: 456px
+          height: 210px
+          border: 1px solid #C6C6C6
+          border-radius: 3px
+          color: #bbbbbb
+          font-size: 14px
+          font-weight: bold
+          letter-spacing: -0.45px
+          padding-left: 20px
+          padding-top: 20px
+          margin-top: 25px
+        textarea[name="message"]::-webkit-input-placeholder 
+          color: #bbbbbb
+.footer-hr
+  width: 940px
+  text-align: center
+  border: 1px solid #87a0d2  
+  margin-left: -950px
+  margin-bottom: 100px
+
+footer
+  padding: 70px
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-bottom: -20px
+  img
+    margin-left: -1800px
+
+
+
+
+
+
